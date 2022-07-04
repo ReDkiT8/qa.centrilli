@@ -8,7 +8,7 @@ Feature: Login functionality for Centrilli
   And User clicks login button
   Then User lands on homepage of posmanager
 
-@wip
+
 Examples:
   | username       | password         |
   | imm10@info.com | inventorymanager |
@@ -22,4 +22,3 @@ Examples:
   | imm18@info.com | inventorymanager |
   | imm19@info.com | inventorymanager |
   | imm20@info.com | inventorymanager |
-  |                |                  |
