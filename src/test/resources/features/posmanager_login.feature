@@ -9,7 +9,7 @@ Feature: Login functionality for Centrilli
     And User clicks login button
     Then User lands on homepage of posmanager
 
-    @wip
+
     Examples:
       | username              | password   |
       | posmanager5@info.com  | posmanager |
