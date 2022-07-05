@@ -16,12 +16,12 @@ import org.junit.runner.RunWith;
 
         features = "src/test/resources/features",
         glue = "com/centrilli/step_definitions",
-        dryRun = true,
-        tags="@wip",
+        dryRun = false,
+        tags="@exx",
         publish=false
+
+
 )
-
-
 public class Runner {
 
 }

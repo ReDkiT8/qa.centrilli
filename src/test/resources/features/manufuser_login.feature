@@ -7,9 +7,8 @@ Feature: Login functionality for Centrilli
     And User enters username "<username>"
     And User enters password "<password>"
     And User clicks login button
-    Then User lands on homepage of posmanager
+    Then User lands on homepage of manufacturing user
 
-    @wip
     Examples:
       | username              | password  |
       | manuf_user10@info.com | manufuser |

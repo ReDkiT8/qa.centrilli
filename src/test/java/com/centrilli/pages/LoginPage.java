@@ -24,5 +24,10 @@ public class LoginPage {
     @FindBy (xpath = "//div[@class='o_main']")
     public WebElement homePage;
 
+    @FindBy(xpath = "//p[@class='alert alert-danger']")
+    public WebElement wrongLoginAlert;
+
+
+
 
 }

@@ -6,7 +6,7 @@ Feature: Login functionality for Centrilli
   And User enters username "<username>"
   And User enters password "<password>"
   And User clicks login button
-  Then User lands on homepage of posmanager
+  Then User lands on homepage of inventory manager
 
 
 Examples:
